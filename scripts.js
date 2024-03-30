@@ -86,6 +86,7 @@ const createGroup = ({ label, bookmarks }) => {
   return container
 }
 
+
 const injectBookmarks = () => {
   const bookmarksContainer = document.getElementById("bookmarks")
   bookmarksContainer.append()
