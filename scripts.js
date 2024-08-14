@@ -50,10 +50,10 @@ searchButton.onclick = search
 
 const bookmarks = [
   {"id":"RW4FdJdvUgTAzTf7","label":"University","bookmarks":[
+      {"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"},
       {"id":"Xaz7JxQFZVVDWL5z","label":"Moodle","url":"https://informatica.i-learn.unito.it/"},
       {"id":"lTSwWR6y6D2i1QjV","label":"Department","url":"https://informatica.unito.it/do/home.pl"},
-      {"id":"lTSwWR6y6Dsw1Qj1","label":"Master's Degree","url":"https://magistrale.informatica.unito.it/do/home.pl"},
-      {"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"}
+      {"id":"lTSwWR6y6Dsw1Qj1","label":"Master's Degree","url":"https://magistrale.informatica.unito.it/do/home.pl"}
   ]},
   {"id":"LVuCOtZEj9ZJ4W1b","label":"Utility","bookmarks":[
       {"id":"FhFFZRYsXTXqqyE6","label":"Email","url":"https://mail.google.com/mail/u/2/#inbox"},
