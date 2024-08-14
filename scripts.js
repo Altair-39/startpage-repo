@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"RW4FdJdvUgTAzTf7","label":"Università","bookmarks":[{"id":"Xaz7JxQFZVVDWL5z","label":"Moodle","url":"https://informatica.i-learn.unito.it/"},{"id":"lTSwWR6y6D2i1QjV","label":"Dipartimento","url":"https://informatica.unito.it/do/home.pl"},{"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"}]},{"id":"LVuCOtZEj9ZJ4W1b","label":"Utilità","bookmarks":[{"id":"FhFFZRYsXTXqqyE6","label":"Email","url":"https://mail.google.com/mail/u/2/#inbox"},{"id":"M5L9IZ70KGnBg4OH","label":"Reddit","url":"https://www.reddit.com/"},{"id":"p3YJ2vOLFYatMtE0","label":"Discord","url":"https://discord.com/channels/@me"},{"id":"oPokkTOiCakQKlkr","label":"YouTube","url":"https://www.youtube.com"}]}]
+const bookmarks = [{"id":"RW4FdJdvUgTAzTf7","label":"University","bookmarks":[{"id":"Xaz7JxQFZVVDWL5z","label":"Moodle","url":"https://informatica.i-learn.unito.it/"},{"id":"lTSwWR6y6D2i1QjV","label":"Dipartimento","url":"https://informatica.unito.it/do/home.pl"},{"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"}]},{"id":"LVuCOtZEj9ZJ4W1b","label":"Utility","bookmarks":[{"id":"FhFFZRYsXTXqqyE6","label":"Email","url":"https://mail.google.com/mail/u/2/#inbox"},{"id":"M5L9IZ70KGnBg4OH","label":"Reddit","url":"https://www.reddit.com/"},{"id":"p3YJ2vOLFYatMtE0","label":"Discord","url":"https://discord.com/channels/@me"},{"id":"oPokkTOiCakQKlkr","label":"YouTube","url":"https://www.youtube.com"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
