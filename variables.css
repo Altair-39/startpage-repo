@@ -32,11 +32,11 @@
 
   /** surface */
   --surface-maxWidth: 1100px;
-  --surface-shadow: 12px 12px 0px rgb(30, 102, 245),
-                    24px 24px 0px rgb(24, 102, 243),
-                    36px 36px 0px rgb(18, 98, 240),
-                    48px 48px 0px rgb(12, 92, 234),
-                    60px 60px 0px rgb(6, 86, 228);
+  --surface-shadow: 12px 12px 0px rgb(138, 173, 244),  /* Softer blue */
+                  24px 24px 0px rgb(130, 170, 242),
+                  36px 36px 0px rgb(122, 160, 240),
+                  48px 48px 0px rgb(114, 150, 238),
+                  60px 60px 0px rgb(106, 140, 236);
   --surface-borderRadius: 21px;
 
   /** spacing */
