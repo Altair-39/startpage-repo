@@ -1,36 +1,42 @@
 :root {
   /** colors */
-  --color-name: nord;
-  --color-bg-shade: #252A33;
-  --color-bg-base: #2E3440;
-  --color-bg-surface: #373E4D;
-  --color-bg-highlight: #40495A;
-  --color-fg-shade: #768CB2;
-  --color-fg-base: #A6B4CD;
-  --color-fg-surface: #D6DCE8;
-  --color-fg-highlight: #FFFFFF;
-  --color-primary-bg: #2C4948;
-  --color-primary-base: #579190;
-  --color-primary-fg: #9AC2C2;
-  --color-secondary-bg: #25394C;
-  --color-secondary-base: #4A7197;
-  --color-secondary-fg: #8BA9C6;
-  --color-palette-red: #BF616A;
-  --color-palette-green: #A3BE8C;
-  --color-palette-yellow: #EBCB8B;
-  --color-palette-blue: #5E81AC;
-  --color-palette-purple: #B48EAD;
-  --color-palette-cyan: #88C0D0;
-  --color-palette-orange: #D08770;
-  
+  --color-name: catppuccin-blue;
+  --color-bg-shade: #181825; /* Dark background with a hint of blue */
+  --color-bg-base: #1E1E2E;
+  --color-bg-surface: #24273A;
+  --color-bg-highlight: #2E3349;
+  --color-fg-shade: #A6ADC8; /* Soft, muted text for contrast */
+  --color-fg-base: #CDD6F4;
+  --color-fg-surface: #E6E9EF;
+  --color-fg-highlight: #F5F5F9;
+  --color-primary-bg: #1E66F5; /* Catppuccin blue */
+  --color-primary-base: #89B4FA;
+  --color-primary-fg: #A6C8FF;
+  --color-secondary-bg: #1E1E2E; /* Keeping secondary more muted but still cool-toned */
+  --color-secondary-base: #7AA2F7; /* Light blue accent */
+  --color-secondary-fg: #B4BEFE;
+
+  /** palette */
+  --color-palette-red: #F38BA8;
+  --color-palette-green: #A6E3A1;
+  --color-palette-yellow: #F9E2AF;
+  --color-palette-blue: #89B4FA; /* Core blue */
+  --color-palette-purple: #CBA6F7;
+  --color-palette-cyan: #94E2D5; /* Blue-green cyan accent */
+  --color-palette-orange: #FAB387;
+
   /** general */
-  --font-family: Quicksand;
-  --font-size: 1;
+  --font-family: Quicksand, sans-serif;
+  --font-size: 1rem;
   --display-image: block;
 
   /** surface */
   --surface-maxWidth: 1100px;
-  --surface-shadow: 12px 12px 0px rgb(44, 73, 72), 24px 24px 0px rgb(42.25, 69, 73), 36px 36px 0px rgb(40.5, 65, 74), 48px 48px 0px rgb(38.75, 61, 75), 60px 60px 0px rgb(37, 57, 76);
+  --surface-shadow: 12px 12px 0px rgb(30, 102, 245),
+                    24px 24px 0px rgb(24, 102, 243),
+                    36px 36px 0px rgb(18, 98, 240),
+                    48px 48px 0px rgb(12, 92, 234),
+                    60px 60px 0px rgb(6, 86, 228);
   --surface-borderRadius: 21px;
 
   /** spacing */
@@ -44,3 +50,4 @@
   --picture-size: 300px;
   --group-count: 2;
 }
+
